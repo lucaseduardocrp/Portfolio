@@ -86,7 +86,7 @@ header.sticky{
     position: relative;
     height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/assets/img/bg-image.jpg);
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/img/bg-image.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
