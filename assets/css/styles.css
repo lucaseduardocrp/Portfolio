@@ -46,12 +46,9 @@ header{
     border-bottom: 1px solid transparent;
     transition: all .45s ease;
 }
-.logo{
-    font-size: 35px;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 1px;
-
+.logo img{
+   width: 100%;
+    height: 65px;
 }
 .navbar{
     display: flex;
@@ -94,7 +91,7 @@ header.sticky{
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 .slide{
     margin-bottom: 20px;
@@ -150,9 +147,12 @@ header.sticky{
     align-items: center;
     justify-content: center;
 }
-
+.button .social-midias{
+    display: flex;
+    gap: 10px;
+}
 .social-midias i{
-    padding: 15px;
+    padding: 10px;
     margin-right: 20px;
     border-radius: 50%;
     background: var(--main-color);
@@ -285,6 +285,7 @@ header.sticky{
 .box:hover{
     transform: translateY(-8px);
     cursor: pointer;
+    box-shadow: 1px 1px 8px var(--main-color);
 }
 
 /*------PORTFOLIO SECTION------*/
