@@ -282,21 +282,6 @@ header.sticky{
     line-height: 1.8;
     margin-bottom: 25px;
 }
-.read{
-    display: inline-block;
-    padding: 8px 18px;
-    background: #383838;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 8px;
-    transition: all .45s ease;
-}
-.read:hover{
-    letter-spacing: 1px;
-    background: var(--bg-color);
-    color: var(--main-color);
-}
 .box:hover{
     transform: translateY(-8px);
     cursor: pointer;
@@ -309,13 +294,12 @@ header.sticky{
 }
 .portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     align-items: center;
     gap: 2.5rem;
     margin-top: 4.3rem;
 }
 .row{
-    height: 580px;
     position: relative;
     overflow: hidden;
     border-radius: 8px;
@@ -323,7 +307,6 @@ header.sticky{
 }
 .row img{
     width: 100%;
-    height: 580px;
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
