@@ -30,6 +30,12 @@ section{
     padding: 160px 15% 120px;
 }
 
+/*------SCROLLBAR DESIGN------*/
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
 /*------HEADER SECTION------*/
 
 header{
