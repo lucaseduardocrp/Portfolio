@@ -43,6 +43,13 @@ section{
     background: var(--bg-color);
 }
 
+/*------TEXT SELECTION DESIGN------*/
+
+::selection {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
 /*------HEADER SECTION------*/
 
 header{
